@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 feb 2024, 19:20:13
+    Author     : Jonatan
+*/
+
+a h4{
+    text-decoration: none;
+    color: black;
+}
+
+#principal {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#AnimesImagenes {
+    width: 70%;
+    margin: 50px;
+    background-color: rgb(255, 239, 219);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-style: hidden hidden hidden solid;
+    border-width: 5px;
+    border-color: rgb(223, 168, 175);
+}
+
+.portada {
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-style: inset;
+    border-radius: 15px;
+}
+
+.contenedortitulo{
+    background-color: rgb(223, 168, 175);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.titulo {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3px;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img{
+    width: 75%;
+    padding: 5px;
+}
+
+#listasimple {
+    background-color: bisque;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: auto;
+    padding: 20px;
+}
